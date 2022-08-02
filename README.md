@@ -4,13 +4,17 @@
 # Summary
 Rust macros for ergonomic conditional compilation of `no_std`, `no_std_heap` and `std` [features](https://doc.rust-lang.org/nightly/cargo/reference/features.html).
 
+These macros are _not_, and cannot be, configurable. The above three feature names had to be hard-coded.
+
 # Conditional compilation and features
 
 Basic conditional feature-based compilation is easy. It can be as simple as using 
 
-These macros are _not_, and cannot be, configurable. The above three feature names are, and have to be, hard-coded.
+Why are `no_std` and `std` are mutually exclusive?
 
-<script type="text/javascript">
-    document.writeln("location.href: " +location.href);
-</script>
-See [https://peter-kehl.github.io/embedded_low_level_rust](embedded_low_level_rust) for why `no_std` and `std` are mutually exclusive, and other reasoning.
+# Hard 
+
+---
+<!-- The following comments hides this section from being shown by https://peter-kehl.github.io/embedded_low_level_rust. >
+<!-- .slide: data-visibility="hidden" -->
+See [https://peter-kehl.github.io/embedded_low_level_rust](embedded_low_level_rust) for building and testing `no_std/no_std_heap/std`.
