@@ -1,12 +1,12 @@
 [package]
-name = "with_heap"
+name = "heappie"
 description = "Conditional compilation of heap-based or heapless code."
 categories = ["embedded", "no-std", "rust-patterns"]
 keywords = ["no_std", "no-std", "macro", "heap", "heapless"]
-homepage = "https://ranging-rs.github.io/with_heap/"
-repository = "https://github.com/ranging-rs/with_heap"
+homepage = "https://ranging-rs.github.io/heappie/"
+repository = "https://github.com/ranging-rs/heappie"
 version = "0.1.0"
-authors =["Peter Kehl"]
+authors =["Peter Kehl <peter.kehl@gmail.com>"]
 edition = "2021"
 include = ["src/*.rs", "Cargo.toml"]
 rust-version = "1.56" # Rust 1.56 is the oldest in 2021 edition

@@ -9,11 +9,11 @@ also shows any source code included below.
 ---
 
 <!-- That included source code doesn't show up as a part of
-     https://github.com/ranging-rs/with_heap/blob/main/README.md.)
+     https://github.com/ranging-rs/heappie/blob/main/README.md.)
 
      Any comments in source starting with "presentation-" are anchors/delimiters for the above presentation.
 -->
-# with_heap - summary
+# heappie - summary
 
 Rust macros for ergonomic conditional compilation based on `no_std`,
 `no_std_heap` and `std`
